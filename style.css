@@ -1,0 +1,39 @@
+body {
+	font: 100% Arial, san-serif;
+	width: 1000px; 
+	margin: 0 auto; 
+}
+
+#menu {
+    margin-top: 5px;
+	margin-bottom: 5px;
+	min-height: 40px;
+}
+
+#menu table {
+    border-collapse: collapse;
+}
+
+#menu th {
+	width: 150px;
+    text-align: center;
+    border: 1px solid #006600;
+	background-color: #99ff99;
+} 
+#menu a{
+    color: #006600; 
+	text-decoration: none;
+	font-size: 18px;
+    text-align:center;
+}
+
+#main {
+	margin: 20px 0px;
+	min-height: 500px;
+}
+
+#map_canvas {
+    width: 1000px;
+    height: 500px;
+	border: 1px solid black;
+}
